@@ -1,0 +1,18 @@
+<header><h2>Problem:</h2>
+    You have a Python script that reads a list of numbers and calculates their average. However, when you run the script, it throws a ZeroDivisionError when the list is empty.
+    <h2>Procedure:</h2>
+    To handle this error, you can add a check to see if the list is empty before calculating the average. If the list is empty, you can return a message or handle the situation accordingly. Here's an example of how you can modify your script to handle the ZeroDivisionError:
+    <pre><code>def calculate_average(numbers):
+    if not numbers:
+        return "List is empty"
+    return sum(numbers) / len(numbers)
+    <h2>Expected Output</h2>
+    When you run the modified script with an empty list, it should return the message "List is empty" instead of throwing a ZeroDivisionError.
+    <h2>Conclusion:</h2>
+    By adding a simple check for an empty list, you can prevent the ZeroDivisionError and handle the situation gracefully in your Python script.</code></pre>
+    <H2>Recommendation</H2>
+    It's always a good practice to handle potential errors or edge cases in your code to ensure it runs smoothly and doesn't crash unexpectedly. By adding error handling like this, you can make your scripts more robust and user-friendly.
+
+
+
+</header>
